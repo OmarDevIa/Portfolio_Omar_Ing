@@ -30,35 +30,34 @@ let typewriter = new Typewriter(txtAnim,  {
     deleteSpeed: 20
 })
 
-typewriter 
 .pauseFor(1800)
 .changeDelay(20)
 .typeString('Moi c\'est Omar Atta Y M')
 .pauseFor(300)
 .typeString('<strong>, Développeur Full-Stack</strong> !')
 .pauseFor(1000)
-.deleteChars(13)
+.deleteChars(26) // supprime ', Développeur Full-Stack !'
 .typeString('<span style="color: #27ae60;"> CSS</span> !')
 .pauseFor(1000)
-.deleteChars(5)
+.deleteChars(6) // supprime ' CSS !'
 .typeString('<span style="color: #EA39ff;"> PhP</span> !')
 .pauseFor(1000)
-.deleteChars(5)
-    .typeString('<span style="color: #EA39ff;"> Python</span> !')
+.deleteChars(6) // supprime ' PhP !'
+.typeString('<span style="color: #EA39ff;"> Python</span> !')
 .pauseFor(1000)
-.deleteChars(5)
-    .typeString('<span style="color: #EA39ff;"> Django</span> !')
+.deleteChars(9) // supprime ' Python !'
+.typeString('<span style="color: #EA39ff;"> Django</span> !')
 .pauseFor(1000)
-.deleteChars(5)
-    .typeString('<span style="color: #EA39ff;">AI </span> !')
+.deleteChars(9) // supprime ' Django !'
+.typeString('<span style="color: #EA39ff;">AI </span> !')
 .pauseFor(1000)
-.deleteChars(5)
+.deleteChars(5) // supprime 'AI !'
 .typeString('<span style="color: midnightblue;"> React</span> !')
 .pauseFor(1000)
-.deleteChars(8)
-    .typeString('<span style="color: midnightblue;"> Angular</span> !')
+.deleteChars(8) // supprime ' React !'
+.typeString('<span style="color: midnightblue;"> Angular</span> !')
 .pauseFor(1000)
-.deleteChars(8)
+.deleteChars(10) // supprime ' Angular !'
 .typeString('<span style="color: #ff6910;"> JavaScript</span> !')
 .start()
 
